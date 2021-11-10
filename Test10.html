@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>用户注册练习</title>
+		<link rel="stylesheet" type="text/css" href="Test10.css" />
+	</head>
+	<body>
+		<form method="post" action="#">
+			<div style="text-align: center;">
+				<h2 class="title">
+					用户注册
+				</h2>
+			</div>
+			<input type="text" name="user" placeholder="用户名" class="default" />
+			<div class="see">
+				支持中文、字母、数字、"-"、"_"的组合,4-20个字符
+			</div>
+			<input type="password" name="pwd" placeholder="设置密码" class="default" />
+			<div class="see">
+				建议使用数字、字母和符号两种以上的组合，6-20个字符
+			</div>
+			<input type="password" name="repwd" placeholder="确认密码" class="default" />
+			<div class="see">
+				两次密码输入不一致
+			</div>
+			<input type="number" name="tel" placeholder="验证手机" class="default" /> &nbsp;
+			或 <a href="#" target="_blank" style="font-size: 10px;">验证邮箱</a>
+			<div class="ckx">
+				<input type="checkbox" name="reluse" />我已阅读并同意
+				<a href="#">《京淘用户注册协议》</a>
+			</div>
+			<button type="submit" class="sub">立即注册</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+.default {
+	font-size: 22px;
+	width: 300px;
+	margin: 3px;
+	padding: 5px;
+}
+
+.see {
+	font-size: 10px;
+	margin-left: 8px;
+	padding: 8px;
+	color: #7E8C8D;
+}
+
+.title {
+	width: 300px;
+	font-size: 30px;
+	font-family: "黑体";
+}
+
+.ckx {
+	width: 270px;
+	text-align: center;
+	font-size: 10px;
+	margin: 20px;
+}
+
+.sub {
+	background-color: #E64346;
+	font-size: 25px;
+	color: white;
+	width: 300px;
+	height: 40px;
+	border: #E64346;
+	margin-left: 10px;
+	border-radius: 5px;
+}
