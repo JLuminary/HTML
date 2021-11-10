@@ -1,0 +1,33 @@
+body {
+	border: 1px solid black;
+	font-size: 8px;
+	text-indent: 10px;
+	width: 280px;
+	margin: 15px;
+	padding: 5px;
+}
+
+.please {
+	font-size: 28px;
+	text-align: center;
+
+}
+
+.me {
+	text-align: center;
+	font-size: 13px;
+}
+
+.dept {
+	font-size: 16px;
+}
+
+.result {
+	text-align: center;
+	font-size: 15px;
+}
+
+.s {
+	font-family: "华文行楷";
+	font-size: 16px;
+}
